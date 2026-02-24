@@ -3,7 +3,7 @@ import { LineChart, Line, XAxis, YAxis, CartesianGrid, ResponsiveContainer } fro
 import axios from 'axios';
 
 // Constants
-const API_BASE_URL = 'https://api.dashlane.com/public/teams';
+const API_BASE_URL = '/dashlane-api/public/teams';
 const AUTH_TOKEN = process.env.REACT_APP_DASHLANE_API_KEY
 
 // API client
